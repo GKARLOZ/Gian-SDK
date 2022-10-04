@@ -67,7 +67,8 @@ This SDK will let developers search for information using THE ONE API. Developer
 
 FolderInstalledGian-SDK\Lib\site-packages\Gian_lotr
 ```
-Gian_lotr/                                                                                                                                                               └── rest/ 
+Gian_lotr/
+└── rest/
     └── book/
         ├── __init__.py
     └── character/
@@ -78,6 +79,7 @@ Gian_lotr/                                                                      
         ├── __init__.py
     └── __init__.py
        	
+
 ```
 
 In the __init__ for the rest folder, you will find a class() with a few methods. The purpose of this class is to create an object that can contain different information. This will come in handy when adding various API endpoints or filtering information. This file also contains an APIRequester class for different APIs and a PathBuilder class to create more complex Strings in the future.  
